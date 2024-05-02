@@ -5,3 +5,11 @@ body {
 img[alt=boolean-xs-logo] {
     width: 50px;
 }
+
+aside {
+    height: calc(100vh - 77px);
+    width: 70px;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: auto;
+    background-color: #051e34;
+}
