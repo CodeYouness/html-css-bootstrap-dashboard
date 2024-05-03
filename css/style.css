@@ -13,3 +13,8 @@ aside {
     background-size: auto;
     background-color: #051e34;
 }
+
+aside i {
+    width: 20px;
+    height: 20px;
+}
