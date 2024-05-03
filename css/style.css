@@ -18,3 +18,20 @@ aside i {
     width: 20px;
     height: 20px;
 }
+
+#content {
+    height: calc(100vh - 77px);
+    overflow: auto;
+}
+
+/* mediaqueris */
+@media screen and (min-width:992px) {
+    aside {
+        width: 130px;
+    }
+
+    aside,
+    #content {
+        height: calc(100vh - 57.7167px);
+    }
+}
