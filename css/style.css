@@ -32,6 +32,32 @@ aside i {
     align-self: center;
 }
 
+.checkmark {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    color: white;
+}
+
+.my_head-of-section {
+    background-color: #f7f7f7;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border-bottom: 1px solid #e7e8e9;
+}
+
+.my_color-gray {
+    color: #6c757d;
+}
+
+img[alt=avatar] {
+    width: 2rem;
+}
+
+td {
+    vertical-align: middle;
+}
+
 /* mediaqueris */
 @media screen and (min-width:992px) {
     aside {

@@ -101,7 +101,7 @@
             <header class="row text-white bg-primary">
 
                 <div class="col-12 col-sm-4 col-lg-3 py-3" id="new-student">
-                    <p class="m-0 text-end">Nuovo Studente <span
+                    <p class="m-0 text-md-end">Nuovo Studente <span
                             class="ms-3 fs-3 fw-light border px-2 rounded-3 align-middle">+</span>
                     </p>
                 </div>
@@ -128,10 +128,38 @@
                 </div>
             </header>
 
+            <!-- content part of main -->
             <main>
-                <div class="row">
-                    <div class="col-12 col-lg-8">
-
+                <div class="row p-2">
+                    <div class="col-12 col-lg-8 border rounded-3 p-0">
+                        <h2 class="my_head-of-section">Prossime classi</h2>
+                        <div class="p-2">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="w-50">Nome</th>
+                                        <th scope="col" class="text-center">Data inizio</th>
+                                        <th scope="col" class="text-uppercase">roi</th>
+                                        <th scope="col" class="text-center">Stato</th>
+                                        <th scope="col" class="text-center">Azioni</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="w-50"><img src="./img/class-avatar.jpg" alt="avatar">Classe 75</td>
+                                        <td class="text-center">15 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td class="text-center"><span class="checkmark bg-success">Done</span></td>
+                                        <td class="text-center">
+                                            <span class="border border-2 p-2 rounded-3 my_color-gray"><i
+                                                    class="fa-solid fa-pencil"></i></span>
+                                            <span class="border border-2 p-2 rounded-3 my_color-gray"><i
+                                                    class="fa-solid fa-trash"></i></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-8">
 
