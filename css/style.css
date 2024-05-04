@@ -43,3 +43,21 @@ aside i {
         height: calc(100vh - 57.7167px);
     }
 }
+
+@media screen and (min-width:768px) {
+    header {
+        flex-direction: row;
+    }
+
+    #new-student {
+        order: 3;
+    }
+
+    #online-student {
+        order: 2;
+    }
+
+    #plane-tag {
+        order: 1;
+    }
+}
