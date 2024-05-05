@@ -101,9 +101,34 @@
             <header class="row text-white bg-primary d-flex">
 
                 <div class="col-12 col-sm-4 col-lg-3 py-3 order-sm-3">
-                    <p class="m-0 text-md-end">Nuovo Studente <span
-                            class="ms-3 fs-3 fw-light border px-2 rounded-3 align-middle">+</span>
+                    <p class="m-0 text-md-end">Nuovo Studente
+                        <button class="btn fn-hover border rounded-3 px-3 py-2 ms-3 text-white" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample">
+                            +
+                        </button>
                     </p>
+
+                    <!-- Offcanvas -->
+                    <div class="offcanvas offcanvas-end w-50 text-dark" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
 
                 <div class="col-12 col-sm-4 col-lg-6 py-3 order-sm-1">
