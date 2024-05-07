@@ -63,6 +63,10 @@ td {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+#offcanvasExample {
+    width: 100%
+}
+
 /* mediaqueris */
 @media screen and (min-width:992px) {
     aside {
@@ -72,5 +76,9 @@ td {
     aside,
     #content {
         height: calc(100vh - 57.7167px);
+    }
+
+    #offcanvasExample {
+        width: 40%
     }
 }
